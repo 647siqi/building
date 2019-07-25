@@ -1,0 +1,30 @@
+{
+  "name": "building",
+  "version": "1.0.0",
+  "description": "this is building tool",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "gulp-watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/647siqi/building.git"
+  },
+  "author": "nuby.liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/647siqi/building/issues"
+  },
+  "homepage": "https://github.com/647siqi/building#readme",
+  "dependencies": {
+    "del": "^5.0.0",
+    "express": "^4.17.1",
+    "gulp-less": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0"
+  }
+}
